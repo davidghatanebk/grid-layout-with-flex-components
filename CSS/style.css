@@ -32,6 +32,9 @@ body {
     display:flex;
     justify-content: center;
   }
+   a {
+display: flex;
+  }
 .emojis {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -43,12 +46,10 @@ body {
     border: 1px solid black;
     display: flex;
     flex-direction:column;
+    gap: 1em;
 }
  .icon {
 display: flex;
 justify-content: center;
 order: -1;
-}
-.emoji a {
-margin-bottom: -30px;  
 }
